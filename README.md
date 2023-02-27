@@ -1,11 +1,11 @@
 # My first repo on Github!
 
-## this is a repo made for users to learn how to initialize a repo in github
-- if your page looks similar to this then you are good!
+## This is a repo made for users to learn how to initialize a repo in github
+- If your page looks similar to this then you are good!
 
-## there are some main github commands that you will be using which are listed below
+## There are some main github commands that you will be using which are listed below
 
-to add files to the staging area in git you can do the follwing command
+To add files to the staging area in git you can do the follwing command
 
 `git add .` the dot at the end of add means that you want to stage all files in the working directory. You can stage specific files by typing their name intead of the dot.
 
@@ -15,9 +15,9 @@ After adding the files to the staging area, now we can do what is called a commi
 
 You can also combine the previous two commands with two && signs like so
 
-`git add . && git commit -m "commit message here"`
+`git add . && git commit -m "commit message here"` or combine the two like so `git commit -am "commit message here"`
 
-finally we can push these changes to the repo and see them on github with the following command
+Finally we can push these changes to the repo and see them on github with the following command
 
 `git push -u origin main` or `git push origin main` 
 
